@@ -2,13 +2,13 @@
 centos:
   hosts:
     elk-centos:
-        ansible_host: '62.84.117.13'
+        ansible_host: '178.154.227.78'
         ansible_connection: ssh
         ansible_user: 'centos'
 
-ubuntu:
-  hosts:
-    elk-ubuntu:
-        ansible_host: '84.201.131.170'
-        ansible_connection: ssh
-        ansible_user: 'centos'
+#ubuntu:
+#  hosts:
+#    elk-ubuntu:
+#        ansible_host: '84.201.131.170'
+#        ansible_connection: ssh
+#        ansible_user: 'centos'

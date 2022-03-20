@@ -1,6 +1,6 @@
 node("docker"){
     stage("Git checkout"){
-        git credentialsId: '5ac0095d-0185-431b-94da-09a0ad9b0e2c', url: 'git@github.com:aragastmatb/example-playbook.git'
+        git credentialsId: '1a426d9e-fab0-4b28-9fd6-f20ea93a78e2', url: 'git@github.com:Gasan66/for_jenkins_test.git'
     }
     stage("Sample define secret_check"){
         secret_check=true
